@@ -4,9 +4,22 @@ francis.booth@hcl.com
 
 March 24th, 2020 
 
- 
+Copyright 2020 HCL America, Inc 
+Licensed under the Apache License
 
  
+IMPORTANT NOTE:
+
+REMEMBER TO SET TEH FOLLOWING IN App.js for your environment.  NGINX SSL termination was done to bypass the need for a tructed cert or working with apple or android trust stores.
+
+const PROTOCOL = 'http';
+const HOSTNAME = '206.198.144.241';
+const STORE_API_PORT = 4443;
+const SEARCH_API_PORT = 7738;
+const STOREFRONT_PORT = 8843;
+const STORE_ID = 1;
+const IMG_URI= PROTOCOL+'://'+HOSTNAME+':'+STOREFRONT_PORT;
+
 
 Explain the use case(s) 
 
