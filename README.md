@@ -10,7 +10,7 @@ Licensed under the Apache License
  
 IMPORTANT NOTE:
 
-REMEMBER TO SET TEH FOLLOWING IN App.js for your environment.  NGINX SSL termination was done to bypass the need for a tructed cert or working with apple or android trust stores.
+REMEMBER TO SET TEH FOLLOWING IN App.js for your environment.  NGINX SSL termination was done to bypass the need for a trusted cert or working with apple or android trust stores.
 
 const PROTOCOL = 'http';
 const HOSTNAME = '206.198.144.241';
